@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Talk to us about outsourced intake, client outreach, or document assistance for your firm.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Let's Talk | ProformConnect">
+  <meta property="og:description" content="Talk to us about outsourced intake, client outreach, or document assistance for your firm.">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <title>Let's Talk | ProformConnect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+
+    <a href="index.html" class="nav__logo">
+      <div class="nav__logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      </div>
+      ProformConnect
+    </a>
+
+    <ul class="nav__links">
+      <li><a class="nav__link" href="index.html#services">Services</a></li>
+      <li><a class="nav__link" href="index.html#how">How It Works</a></li>
+    </ul>
+
+    <a href="contact.html" class="nav__cta">
+      Let's Talk
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+
+  <div class="nav__mobile" id="mobile-nav">
+    <a href="index.html#services">Services</a>
+    <a href="index.html#how">How It Works</a>
+    <a href="contact.html" style="color:var(--cyan); font-weight:700;">Let's Talk</a>
+  </div>
+</nav>
+
+
+<!-- CONTACT -->
+<div class="contact-page">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="anim">
+        <div class="contact-left__eyebrow">Get in Touch</div>
+        <h1 class="contact-left__headline">
+          Let's talk about<br>
+          <span class="grad">what you need.</span>
+        </h1>
+        <p class="contact-left__sub">
+          Tell us a little about your firm and we'll reach out within one business day. No pressure, no long sales pitch &mdash; just a conversation about whether we're a good fit.
+        </p>
+
+        <ul class="expect-list">
+          <li class="expect-item">
+            <div class="expect-item__icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0ea5c9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            </div>
+            <div>
+              <div class="expect-item__title">A conversation first</div>
+              <div class="expect-item__desc">We'll ask about your current process and what you're looking for.</div>
+            </div>
+          </li>
+          <li class="expect-item">
+            <div class="expect-item__icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0ea5c9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <div class="expect-item__title">Response within one business day</div>
+              <div class="expect-item__desc">We'll follow up to schedule a call or answer questions directly by email.</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="form-card anim d2">
+        <div class="form-card__title">Tell us about yourself</div>
+        <div class="form-card__sub">We'll use this to prepare for the conversation.</div>
+
+        <form id="contactForm">
+
+          <div class="form-group form-group--row">
+            <div class="form-group">
+              <label class="form-label" for="fname">First Name <span>*</span></label>
+              <input class="form-input" type="text" id="fname" name="first_name" placeholder="Jane" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="lname">Last Name <span>*</span></label>
+              <input class="form-input" type="text" id="lname" name="last_name" placeholder="Smith" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Work Email <span>*</span></label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="jane@yourfirm.com" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="org">Firm / Company</label>
+            <input class="form-input" type="text" id="org" name="organization" placeholder="Your firm or agency name">
+          </div>
+
+          <div class="form-group">
+            <div class="form-label" style="margin-bottom:10px;">I'm interested in</div>
+            <div class="interest-grid">
+              <div class="interest-item">
+                <input type="checkbox" id="int-intake" name="interest" value="intake">
+                <label for="int-intake">Intake</label>
+              </div>
+              <div class="interest-item">
+                <input type="checkbox" id="int-outreach" name="interest" value="client-outreach">
+                <label for="int-outreach">Client Outreach</label>
+              </div>
+              <div class="interest-item">
+                <input type="checkbox" id="int-docs" name="interest" value="document-assistance">
+                <label for="int-docs">Document Assistance</label>
+              </div>
+              <div class="interest-item">
+                <input type="checkbox" id="int-other" name="interest" value="not-sure">
+                <label for="int-other">Not sure yet</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Anything else?</label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Tell us about your situation, or just say hello."></textarea>
+          </div>
+
+          <div class="form-divider"></div>
+
+          <button type="submit" class="form-submit">
+            Send Message
+          </button>
+
+          <p class="form-legal">
+            By submitting, you agree to our <a href="privacy.html">Privacy Policy</a>.
+          </p>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer__grid">
+
+      <div>
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <div class="footer__logo-icon">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            ProformConnect
+          </div>
+          <p class="footer__tagline">Outsourced client services built for law firms.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer__col-title">Services</div>
+        <ul class="footer__links">
+          <li><a href="index.html#services">Intake</a></li>
+          <li><a href="index.html#services">Client Outreach</a></li>
+          <li><a href="index.html#services">Document Assistance</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer__col-title">Company</div>
+        <ul class="footer__links">
+          <li><a href="index.html#how">How It Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+        <div style="margin-top:20px; font-size:13px; color:#64748b;">
+          <div>connect@proformconnect.com</div>
+          <div style="margin-top:4px;">Dallas, TX</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <span>&copy; 2026 ProformConnect, a service of MammothShift-Labs, LLC</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  const form = e.target;
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const originalText = submitBtn.textContent;
+
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Sending...';
+
+  const firstName = document.getElementById('fname').value.trim();
+  const lastName = document.getElementById('lname').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const organization = document.getElementById('org').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  const interests = Array.from(document.querySelectorAll('input[name="interest"]:checked'))
+    .map(cb => cb.value)
+    .join(', ');
+
+  const fullMessage = [
+    message,
+    interests ? `\nInterested in: ${interests}` : ''
+  ].filter(Boolean).join('');
+
+  try {
+    const response = await fetch('https://contactus.api.mammothshift-labs.com/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      mode: 'cors',
+      body: JSON.stringify({
+        name: `${firstName} ${lastName}`,
+        email: email,
+        company: organization || undefined,
+        message: fullMessage,
+        site: 'proformconnect.com'
+      })
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      window.location.href = 'thank-you.html';
+    } else {
+      alert('Error sending message: ' + (data.error || 'Unknown error'));
+    }
+  } catch (err) {
+    alert('Error sending message: ' + err.message);
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.textContent = originalText;
+  }
+});
+</script>
+
+</body>
+</html>
