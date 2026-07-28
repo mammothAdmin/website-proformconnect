@@ -716,6 +716,18 @@ footer {
   font-size: 12px; color: #475569;
 }
 
+.footer__powered {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 12px; color: #475569;
+}
+
+.footer__powered img {
+  height: 18px; width: auto; opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.footer__powered:hover img { opacity: 0.8; }
+
 @media (max-width: 500px) {
   .footer__bottom { flex-direction: column; gap: 8px; text-align: center; }
 }
