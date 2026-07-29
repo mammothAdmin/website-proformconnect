@@ -718,7 +718,7 @@ footer {
 
 .footer__powered {
   display: flex; align-items: center; gap: 6px;
-  font-size: 12px; color: #475569;
+  font-size: 12px; color: #475569; text-decoration: none;
 }
 
 .footer__powered img {
