@@ -7,6 +7,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Privacy Policy | ProformConnect">
   <meta property="og:description" content="ProformConnect privacy policy — what we collect and how we use it.">
+  <meta property="og:image" content="img/og-image.png">
   <link rel="icon" href="img/favicon.png" type="image/png">
   <title>Privacy Policy | ProformConnect</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,39 +18,7 @@
 <body>
 
 
-<!-- NAV -->
-<nav class="nav" id="nav">
-  <div class="nav__inner">
-
-    <a href="index.html" class="nav__logo">
-      <div class="nav__logo-icon">
-        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-      </div>
-      ProformConnect
-    </a>
-
-    <ul class="nav__links">
-      <li><a class="nav__link" href="index.html#services">Services</a></li>
-      <li><a class="nav__link" href="index.html#how">How It Works</a></li>
-    </ul>
-
-    <a href="contact.html" class="nav__cta">
-      Let's Talk
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-    </a>
-
-    <button class="nav__burger" id="burger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-
-  </div>
-
-  <div class="nav__mobile" id="mobile-nav">
-    <a href="index.html#services">Services</a>
-    <a href="index.html#how">How It Works</a>
-    <a href="contact.html" style="color:var(--cyan); font-weight:700;">Let's Talk</a>
-  </div>
-</nav>
+<pc-header></pc-header>
 
 
 <!-- PRIVACY -->
@@ -99,55 +68,9 @@
 </div>
 
 
-<!-- FOOTER -->
-<footer>
-  <div class="wrap">
-    <div class="footer__grid">
+<pc-footer></pc-footer>
 
-      <div>
-        <div class="footer__brand">
-          <div class="footer__logo">
-            <div class="footer__logo-icon">
-              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            </div>
-            ProformConnect
-          </div>
-          <p class="footer__tagline">Outsourced client services built for law firms.</p>
-        </div>
-      </div>
-
-      <div>
-        <div class="footer__col-title">Services</div>
-        <ul class="footer__links">
-          <li><a href="index.html#services">Intake</a></li>
-          <li><a href="index.html#services">Client Outreach</a></li>
-          <li><a href="index.html#services">Document Assistance</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <div class="footer__col-title">Company</div>
-        <ul class="footer__links">
-          <li><a href="index.html#how">How It Works</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="privacy.html">Privacy Policy</a></li>
-        </ul>
-        <div style="margin-top:20px; font-size:13px; color:#64748b;">
-          <div>connect@proformconnect.com</div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="footer__bottom">
-      <span style="display:inline-flex; align-items:center; gap:6px;"><div class="footer__logo-icon" style="width:18px; height:18px; border-radius:4px;"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div> ProformConnect</span>
-      <a href="https://www.mammothshift-labs.com" target="_blank" rel="noopener" class="footer__powered">
-        Powered by <img src="img/mammothshift-labs.png" alt="MammothShift Labs"> MammothShift Labs
-      </a>
-    </div>
-  </div>
-</footer>
-
+<script src="js/components.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
